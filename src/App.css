@@ -1,0 +1,145 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #100E1D;
+}
+.container{
+  width: 1280px;
+  height: 100vh;
+  
+ 
+}
+.principal{
+  display: flex;
+  
+  
+
+}
+.cardcontainer{
+  position: relative;
+  top: 40px;
+  width: 300px;
+ height: 500px;
+  display: flex;
+  justify-content: center;
+  background-image: url("./assets/img/Cloud-background.png");
+  background-position-x: center;
+  background-size: 90% 30%;
+  background-repeat: no-repeat;
+  background: #1E223A;
+  border-radius: 15px;
+  border: 1px solid white;
+}
+.img{
+  width: 300px;
+  background-image: url("./assets/img/Cloud-background.png");
+  background-position-x: center;
+  background-size: 110% 30%;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 30px;
+  
+}
+.info{
+  position: relative;
+  top: 40px;
+  
+}
+.predicciones{
+  display: flex;
+  
+  flex-direction: column;
+  
+  position: relative;
+  left: 30px;
+  top: 40px;
+  width: 900px;
+  height: 200px;
+  
+}
+.containerdias{
+  display: flex;
+  justify-content: space-between;
+  
+  position: relative;
+  left: 30px;
+  top: 40px;
+  width: 900px;
+  height: 200px;
+}
+.dias{
+  width: 130px;
+  
+  background: #1E223A;
+  border-radius: 15px;
+}
+.pedicard{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 40px;
+}
+.predi{
+  width: 130px;
+  
+  background: #1E223A;
+  border-radius: 15px;
+}
+.form{
+  padding-top: 20px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.inp{
+  height: 35px;
+  border-radius: 8px 8px 8px 8px;
+  background-color: #6E707A;
+  border: 0px;
+  text-align: center;
+}
+.btn{
+  background: #6E707A;
+  height: 35px;
+  width: 20px;
+  border-radius: 30px;
+
+}
+.imgs{
+  height: 35px;
+  position: relative;
+  bottom: 10px;
+  right: 17px;
+}
+
+
+.porcHum{
+  width: 120px;
+  position: relative;
+  bottom: 10px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
